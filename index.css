@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100vh;
+    background-color: #000000;
+}
+
+div.headlog{
+    display: flex;
+    font-family: helvetica;
+    color: #000000;
+    font-size: 75px;
+    font-weight: 300;
+    border-bottom-left-radius: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: #97c4e5;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+summary{
+    list-style-type: none;
+    cursor: pointer;
+    color: #000000;
+    font-size: 18px;
+}
+
+summary:hover{
+    font-size: 22px;
+}
+
+button{
+    width: 80%;
+    background-color: #000000;
+    color: #97c4e5;
+    font-size: 13px; 
+    border-radius: 30px;
+    border: none;
+}
+
+button:hover{
+    width: 90%;
+    font-size: 15px;
+}
+
+summary img{
+    width: 5%;
+}
+
+div img{
+    width: 15%;
+}
+
+.img2{
+    margin-block: 15px;
+    display: grid;
+    place-items: center;
+}
+
+.img2 img{
+    width: 20%;
+}
+
+img{
+    border-radius: 100px;
+}
+
+#mid{
+    background-color: #97c4e5;
+    width: 60%;
+    padding: 20px 20px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 15px;
+}
+
+p{
+   text-align: center;
+   color: #000000;
+   font-size: 20px;
+   font-weight: 500;
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: #97c4e5;
+}
+
+@media screen and (max-width: 760px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    div.headlog{
+        font-size: 28px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px 7px 10px;  
+    }
+
+    details{
+        width: 30%;
+        height: 30%;
+    }
+
+    summary{
+        font-size: 10px;
+        text-align: right;
+    }
+
+    summary:hover{
+        font-size: 12px;
+    }
+
+    button{
+        width: 60%;
+        font-size: 9px;
+    }
+
+    button:hover{
+        font-size: 11px;
+    }
+
+    .headlog{
+        width: 50%;
+        height: 30%;
+    }
+
+    #mid{
+        margin-top: 90px
+    }
+}
+
+@media screen and (max-width: 1200px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    div.headlog{
+        font-size: 28px;
+    }
+
+    #mid{
+        margin-top: 100px
+    }
+
+}
