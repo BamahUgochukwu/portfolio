@@ -83,7 +83,7 @@ section img{
     width: 10%;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 350px) {
     *{
         margin: 0;
         padding: 0;
