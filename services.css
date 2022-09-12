@@ -81,7 +81,7 @@ section{
     border-radius: 20px;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 350px) {
     *{
         margin: 0;
         padding: 0;
