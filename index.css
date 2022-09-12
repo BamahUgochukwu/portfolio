@@ -99,7 +99,7 @@ a{
     color: #97c4e5;
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 350px) {
     *{
         margin: 0;
         padding: 0;
@@ -145,7 +145,7 @@ a{
     }
 
     .img2 img{
-        width: 35%;
+        width: 40%;
     }
 
     #mid{
