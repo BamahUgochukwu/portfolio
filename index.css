@@ -105,14 +105,14 @@ a{
         padding: 0;
     }
 
-    div.headlog{
-        font-size: 13px;
+    h1{
+        font-size: 14px;
     }
 
     nav{
         display: flex;
         justify-content: space-between;
-        padding: 5px 15px 5px 8px; 
+        padding: 5px 15px 5px 8px;
     }
 
     details{
@@ -202,20 +202,4 @@ a{
     #mid{
         margin-top: 90px
     }
-}
-
-@media screen and (max-width: 1200px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    div.headlog{
-        font-size: 28px;
-    }
-
-    #mid{
-        margin-top: 100px
-    }
-
 }
