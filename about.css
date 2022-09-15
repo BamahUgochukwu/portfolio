@@ -87,8 +87,8 @@ section{
         padding: 0;
     }
 
-    div.headlog{
-        font-size: 13px;
+    h1{
+        font-size: 14px;
     }
 
     nav{
