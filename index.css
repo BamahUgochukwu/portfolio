@@ -106,7 +106,7 @@ a{
     }
 
     h1{
-        font-size: 14px;
+        font-size: 20px;
     }
 
     nav{
@@ -121,22 +121,23 @@ a{
     }
 
     summary{
-        font-size: 8px;
+        font-size: 10px;
         text-align: right;
+        font-weight: 600;
     }
 
     summary:hover{
-        font-size: 10px;
+        font-size: 12px;
     }
 
     button{
-        width: 55%;
-        font-size: 7px;
+        width: 70%;
+        font-size: 10px;
     }
 
     button:hover{
-        width: 75%;
-        font-size: 10px;
+        width: 90%;
+        font-size: 12px;
     }
 
     .headlog{
