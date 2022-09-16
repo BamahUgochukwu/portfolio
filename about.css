@@ -81,7 +81,7 @@ section{
     border-radius: 20px;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 960px) {
     *{
         margin: 0;
         padding: 0;
@@ -102,18 +102,10 @@ section{
         height: 20%;
     }
 
-    section{
-        text-align: center;
-        width: 50%;
-        margin-block: 30px;
-        padding: 15px 20px;
-        font-size: 10px;
-    }
-
     summary{
         font-size: 8px;
         text-align: right;
-        }
+    }
 
     summary:hover{
         font-size: 10px;
@@ -138,78 +130,17 @@ section{
         margin-top: 80px;
         text-align: center;
     }
-} 
-
-@media screen and (max-width: 760px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    div.headlog{
-        font-size: 28px;
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-        padding: 5px 20px 7px 10px;  
-    }
-
-    details{
-        width: 30%;
-        height: 30%;
-    }
 
     section{
         text-align: center;
-        width: 45%;
-        margin-block: 40px;
-        padding: 15px 20px;
         font-size: 15px;
-    }
-
-
-    summary{
-        font-size: 10px;
-        text-align: right;
-    }
-
-    summary:hover{
-        font-size: 12px;
-    }
-
-    button{
-        width: 60%;
-        font-size: 9px;
-    }
-
-    button:hover{
-        font-size: 11px;
-    }
-
-    .headlog{
         width: 50%;
-        height: 30%;
-    }
-
-    #mid{
-        margin-top: 90px
-    }
-}
-
-@media screen and (max-width: 1200px){
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    div.headlog{
-        font-size: 28px;
-    }
-
-    #mid{
-        margin-top: 100px
+        margin: auto;
+        margin-block: 75px 40px;
+        background-color: #faeaff;
+        color: #7e7192;
+        padding: 15px 25px;
+        border-radius: 20px;
     }
 
 }

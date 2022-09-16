@@ -99,7 +99,7 @@ a{
     color: #97c4e5;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 960px) {
     *{
         margin: 0;
         padding: 0;
@@ -123,7 +123,7 @@ a{
     summary{
         font-size: 8px;
         text-align: right;
-        }
+    }
 
     summary:hover{
         font-size: 10px;
@@ -144,62 +144,12 @@ a{
         height: 20%;
     }
 
-    .img2 img{
-        width: 50%;
-    }
-
     #mid{
         margin-top: 80px;
         text-align: center;
     }
-} 
 
-@media screen and (max-width: 760px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
-
-    div.headlog{
-        font-size: 28px;
-    }
-
-    nav{
-        display: flex;
-        justify-content: space-between;
-        padding: 5px 20px 7px 10px;  
-    }
-
-    details{
-        width: 30%;
-        height: 30%;
-    }
-
-    summary{
-        font-size: 10px;
-        text-align: right;
-    }
-
-    summary:hover{
-        font-size: 12px;
-    }
-
-    button{
-        width: 60%;
-        font-size: 9px;
-    }
-
-    button:hover{
-        width: 85%;
-        font-size: 11px;
-    }
-
-    .headlog{
+    .img2 img{
         width: 50%;
-        height: 30%;
-    }
-
-    #mid{
-        margin-top: 90px
     }
 }
